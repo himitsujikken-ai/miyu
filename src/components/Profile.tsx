@@ -24,9 +24,9 @@ export default function Profile() {
                         </h2>
                         <div className="mb-8">
                             <h3 className="font-serif text-3xl md:text-4xl text-gray-900 font-bold mb-2">
-                                佐和 美玲
+                                美優
                             </h3>
-                            <p className="text-gray-500 font-serif italic text-lg">Miyu Sawa</p>
+                            <p className="text-gray-500 font-serif italic text-lg">Miyu</p>
                         </div>
 
                         <p className="text-sm font-bold tracking-wider uppercase text-gray-600 mb-8 border-b border-gray-300 pb-2 inline-block">
@@ -47,10 +47,6 @@ export default function Profile() {
                                 現在は旅をしながら、マヤ暦を通して<br />
                                 一人でも多くの人が自分らしく生きられるようサポートしています。
                             </p>
-
-                            <div className="pt-4 text-xs text-gray-500">
-                                本名：美優
-                            </div>
                         </div>
                     </div>
                 </div>

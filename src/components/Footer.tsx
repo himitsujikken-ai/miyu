@@ -7,7 +7,7 @@ export default function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-12 text-center md:text-left">
                     <div className="col-span-1 md:col-span-2">
                         <Link href="/" className="font-serif text-2xl tracking-widest block mb-6">
-                            PORTRAIT OF YOU
+                            旅するマヤ暦アドバイザー
                         </Link>
                         <p className="text-sm leading-relaxed text-gray-600 max-w-sm mx-auto md:mx-0">
                             旅とマヤ暦を通じて、<br />
