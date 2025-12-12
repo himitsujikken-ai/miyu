@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+:root {
+  /* Design System Colors */
+  --color-sand-beige: #F5F5DC;  /* Classic Beige */
+  --color-sand-dark: #E8E4C9;   /* Slightly darker for depth */
+  --color-turquoise: #40E0D0;   /* Bright Turquoise */
+  --color-turquoise-deep: #008080; /* Deep Teal/Turquoise */
+  --color-off-white: #FFFAF0;   /* Floral White / Warm White */
+  
+  --font-serif: var(--font-noto-serif-jp);
+  --font-sans: var(--font-noto-sans-jp);
+}
+
+@theme inline {
+  --color-background: var(--color-off-white);
+  --color-foreground: #333333;
+  
+  --color-primary: var(--color-sand-beige);
+  --color-accent: var(--color-turquoise);
+  --color-accent-dark: var(--color-turquoise-deep);
+
+  --font-serif: var(--font-serif);
+  --font-sans: var(--font-sans);
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+}
